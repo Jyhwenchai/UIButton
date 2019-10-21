@@ -3,10 +3,6 @@ import UIKit
 //: UIButton 内部布局算法
 //:
 //: 以下称 `imageTextSpacing` 在 image 与 title 的间距，`titleInsets` 为 UIButton 的 `titleEdgeInsets`, `imageInsets` 在 UIButton 的 `imageEdgeInsets`, `contentInsets` 为 UIButton 的 `contentEdgeInsets`
-//:
-//: 左右布局
-//:   - 左 image 右 title
-//:      * 居中对齐（默认）：
 
 let button = UIButton()
 var titleInsets = button.titleEdgeInsets
